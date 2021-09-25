@@ -1,4 +1,4 @@
-FROM centos:8.2.2004
+FROM centos:8.4.2105
 
 RUN	 cp -f /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
 yum install wget -y && \
