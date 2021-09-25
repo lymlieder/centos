@@ -1,4 +1,4 @@
-FROM registry.cn-shanghai.aliyuncs.com/shkxmh/centos-java-test:1
+FROM registry.cn-shanghai.aliyuncs.com/shkxmh/centos-java-test:2
 
 RUN   yum install glibc-langpack-zh -y telnet && \
 	     yum -y reinstall glibc-common &&\
